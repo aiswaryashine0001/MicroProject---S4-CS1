@@ -1,0 +1,157 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+/* Main.css */
+.input {
+  margin-top: 10px;
+  width: 200px;
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0); /* Transparent border color */
+  color: #f5eded;
+  font-size: 15px;
+}
+
+/* Main.css */
+.input::placeholder {
+  color: #f5eded; /* Change the color to red */
+}
+
+.box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  top:490px;
+  left:-250px;
+  font-size: 12px;
+  align-items: center;
+  color: white;
+  
+}
+
+.exploreButton {
+  padding: 8px 16px;
+  margin-left: 10px; /* Add some spacing between the input and the button */
+  border: none;
+  border-radius: 4px;
+  background-color:transparent; /* Set the background color to blue */
+  color: rgb(250, 239, 239); /* Set the text color to white */
+  cursor: pointer;
+  margin-left: 700px;
+  margin-top: -100px;
+  font-size: 20px;
+}
+
+.exploreButton:hover {
+  background-color: #2b2b99; /* Darker shade of blue on hover */
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(161, 155, 155, 0.4);
+  /* background-color: #000000cc; */
+}
+
+/* Main.css */
+.box {
+  backdrop-filter: blur(2px);
+  padding: 20px;
+  border-radius: 8px;
+  height: 90px;
+}
+
+.box h2 {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.box input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 0px;;
+}
+
+.box .exploreButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.box .exploreButton:hover {
+  background-color: #e9ebef;
+  color:#0a0a0b;
+  margin-bottom: 20px;
+}
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.first{
+  display: flex;
+  margin-right: 10px;
+  width: 500px;
+  height: 270px;
+  justify-content: space-between;
+  margin-left: 300px; /* Add space on the left */
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.second{
+  width: 410px;
+  height: 148px;
+  margin-left: 300px;
+  margin-bottom: 70px;
+}
+
